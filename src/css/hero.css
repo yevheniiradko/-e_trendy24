@@ -1,0 +1,9 @@
+.hero {
+  background-color: aqua;
+  display: block;
+  padding: 108px;
+  border-radius: 30%;
+  width: 300px;
+  margin: 0 auto;
+  outline: auto;
+}
