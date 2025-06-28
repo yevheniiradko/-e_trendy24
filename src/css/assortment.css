@@ -1,0 +1,85 @@
+.assortment-menu {
+
+}
+.assortment-title {
+font-weight: 700;
+font-size: 36px; 
+line-height: 1.2;
+letter-spacing: 0.01em;
+text-align: center;
+color: #030a06;
+}
+.assortment-container {
+border-radius: 32px;
+}
+.assortment-pow {
+
+}
+.container-mod {
+
+}
+
+.assortment-van {
+
+}
+
+.container-mod-title {
+
+}
+
+.assortment-chek {
+    
+}
+
+.button-chek {
+
+}
+
+                              /* //// TAB //// */
+
+
+@media screen and (min-width:768px) {
+.container {
+    max-width:768px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       /* //// Desctop //// */
+
+
+   @media screen and (min-width:1440px) {
+.container {
+    max-width: 1158px;
+}
+
+
+
+
+
+
+
+
+   } 
