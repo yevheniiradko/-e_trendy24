@@ -1,0 +1,67 @@
+.assortment-menu {
+
+}
+.assortment-title {
+
+}
+.assortment-container {
+
+}
+.assortment-pow {
+
+}
+.container-mod {
+
+}
+.button-chek {
+
+}
+
+                              /* //// TAB //// */
+
+
+@media screen and (min-width:768px) {
+.container {
+    max-width:768px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       /* //// Desctop //// */
+
+
+   @media screen and (min-width:1440px) {
+.container {
+    max-width: 1158px;
+}
+
+
+
+
+
+
+
+
+   } 
