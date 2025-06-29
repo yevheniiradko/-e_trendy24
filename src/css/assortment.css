@@ -1,6 +1,11 @@
 .assortment-menu {
-padding: 32px 16px;
+     display: block;        
+  margin-left: auto;
+  margin-right: auto;       
+  height: auto; 
+/* padding: 32px 16px; */
 width: 320px;
+background: #ebf8ed;
 }
 .assortment-title {
 font-weight: 700;
@@ -9,6 +14,7 @@ line-height: 1.2;
 letter-spacing: 0.01em;
 text-align: center;
 color: #030a06;
+margin-bottom: 32px;
 }
 .assortment-container {
 border-radius: 32px;
@@ -17,7 +23,8 @@ border-radius: 32px;
 
 }
 .container-mod {
-
+margin-top: 16px;
+margin-bottom: 16px;
 }
 
 .assortment-van {
@@ -34,6 +41,7 @@ font-size: 14px;
 line-height: 1.6;
 text-align: center;
 color: #030a06;
+margin-bottom: 8px;
 }
 
 .assortment-chek {
@@ -50,7 +58,15 @@ border-radius: 6px;
 padding: 8px 20px;
 width: 288px;
 height: 40px;
+margin-bottom: 40px;
+background: #ebf8ed;
+
 }
+.button-chek:hover, .button-chek:focus {
+    background-color: #030a06;
+    color: #fff;
+}
+
 
                               /* //// TAB //// */
 
@@ -59,8 +75,18 @@ height: 40px;
 .container {
     max-width:768px;
 }
+.assortment-menu {
+
+}
+.assortment-container {
+/* width: calc((100% - 24px) / 2); */
+
+}
 
 
+}
+
+.assortment-pow {
 
 
 
