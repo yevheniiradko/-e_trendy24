@@ -1,5 +1,4 @@
 
-/*
 ::after,
 ::before {
   box-sizing:border-box;
@@ -32,7 +31,7 @@ img {
     background-color: #ffffff;
   }
   
-*/
+
 
   .container {
     width: 320px;
