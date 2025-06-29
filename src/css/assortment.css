@@ -1,5 +1,6 @@
 .assortment-menu {
-
+padding: 32px 16px;
+width: 320px;
 }
 .assortment-title {
 font-weight: 700;
@@ -20,19 +21,35 @@ border-radius: 32px;
 }
 
 .assortment-van {
-
+font-weight: 600;
+font-size: 18px;
+line-height: 1.6;
+text-align: center;
+color: #030a06;
 }
 
 .container-mod-title {
-
+font-weight: 400;
+font-size: 14px;
+line-height: 1.6;
+text-align: center;
+color: #030a06;
 }
 
 .assortment-chek {
-    
+    font-weight: 600;
+font-size: 20px;
+line-height: 1.6;
+text-align: center;
+color: #030a06;
 }
 
 .button-chek {
-
+border: 1px solid #030a06;
+border-radius: 6px;
+padding: 8px 20px;
+width: 288px;
+height: 40px;
 }
 
                               /* //// TAB //// */
