@@ -3,9 +3,8 @@
   margin-left: auto;
   margin-right: auto;       
   height: auto; 
-/* padding: 32px 16px; */
-width: 320px;
 background: #ebf8ed;
+padding: 32px 16px;
 }
 .assortment-title {
 font-weight: 700;
@@ -20,7 +19,7 @@ margin-bottom: 32px;
 border-radius: 32px;
 }
 .assortment-pow {
-
+padding-bottom: 40px;
 }
 .container-mod {
 margin-top: 16px;
@@ -58,7 +57,6 @@ border-radius: 6px;
 padding: 8px 20px;
 width: 288px;
 height: 40px;
-margin-bottom: 40px;
 background: #ebf8ed;
 
 }
@@ -74,8 +72,30 @@ background: #ebf8ed;
 @media screen and (min-width:768px) {
 .container {
     max-width:768px;
+    padding: 64px 32px;
 }
+.assortment-container {
+    width: 704px;
+   
+    display: flex;             
+   flex-wrap: wrap;
 
+
+   
+}
+.container-mod {
+width: 340px;
+
+
+}
+.button-chek {
+width: 340px;
+}
+.assortment-pow {
+border-radius: 32px;
+width: 340px;
+
+}
 
 }
 
@@ -93,8 +113,14 @@ background: #ebf8ed;
    @media screen and (min-width:1440px) {
 .container {
     max-width: 1158px;
+    padding: 64px;
 }
 
+.assortment-title {
+    width: auto;
+    height: auto;
+    margin-bottom: 32px;
+}
 
 
 
