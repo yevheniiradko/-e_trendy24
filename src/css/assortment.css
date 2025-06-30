@@ -71,6 +71,10 @@ background: #ebf8ed;
 
 
 @media screen and (min-width:768px) {
+.assortment-menu {
+    min-width:768px
+}
+
 .container {
    display: flex;
 align-items: center;
@@ -86,7 +90,7 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 24px;
-width: calc((100% - 24px) / 2);
+
 }
 .assortment-title {
     width: 704px;
@@ -111,7 +115,7 @@ width: 340px;
 }
 .assortment-pow {
 width: 704px;
-
+width: calc((100% - 24px) / 2);
     
 }
 .assort-div {
@@ -162,12 +166,20 @@ color: #030a06;
 
 
    @media screen and (min-width:1440px) {
+
+   .assortment-menu {
+    min-width:1440px;
+    display: flex;    
+  margin-left: auto;
+  margin-right: auto;       
+  height: auto; 
+background: #ebf8ed;
+padding: 32px 16px;
+   }
+
 .container {
-   display: flex;
    flex-wrap: nowrap;
-align-items: center;
 justify-content: flex-start;
-flex-direction: column;
 gap: 32px;
 padding: 64px;
 min-width:1440px
@@ -183,21 +195,13 @@ color: #030a06;
 }
 
 .assortment-container {
-    display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 64px;
-width: 1312px;
+
 
 }
 .assortment-pow {
-    display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
+ width: calc((100% - 24px) / 4);
 gap: 16px;
-width: 310px;
+
 
 }
 .assortment-van {
@@ -225,11 +229,8 @@ color: #030a06;
 }
 
 .button-chek {
-border: 1px solid #030a06;
-border-radius: 6px;
-padding: 8px 20px;
 width: 310px;
-height: 40px;
+
 }
 
 
