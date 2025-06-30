@@ -196,9 +196,7 @@ color: #030a06;
 }
 
 .assortment-container {
-    min-width:1440px;
-    display: flex;
- flex-direction: row;
+ min-width:1440px;
  gap:0 24px;
  
 }
