@@ -7,6 +7,10 @@
     flex-direction: column;
     align-items: center;
 }
+.hero-wrapper {
+    margin-bottom: 20px;
+
+}
 .hero-logo {
     font-family: var(--second-family);
     font-weight: 700;
@@ -14,7 +18,7 @@
     line-height: 1.2;
     letter-spacing: 0.01em;
     color: var(--color-scheme-2-text);
-    margin-bottom: 20px;
+
 }
 .hero-description {
     display: flex;
@@ -37,7 +41,7 @@
     border: 1px solid var(--color-neutral-darkest);
     border-radius: 6px;
     padding: 12px 24px;
-    background:black;
+    background: var(--color-neutral-darkest);
     min-width: 288px;
     min-height: 50px;
     font-family: var(--font-family);
@@ -46,28 +50,25 @@
     line-height: 1.6;
     color: var(--color-white);
 }
-/* .btn:hover {
-
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-neutral-darkest);
 }
 .btn:focus {
-
+    background: var(--color-white);
+    color: var(--color-neutral-darkest);
 }
-.hero-banner {
 
-} */
 @media only screen and (min-width: 768px) {
     .hero {
         padding-top: 32px;
         padding-bottom: 64px;
     }
     .hero-container {
-        background-color: aqua;
-        width: 100%;
-        
+        width: 100%;        
     }
     .hero-wrapper {
         display: flex;
-        padding: 0 16px;
     }
     .hero-logo {
         width: 50%;
@@ -94,11 +95,19 @@
 
 @media only screen and (min-width: 1440px) {
     .hero-container {
+        width: 100%;
+        max-width: 100%;
         background-color: blueviolet;
-        width: 100%;        
     }
-    .hero-wrapper {
-        padding: 0;
+    .hero-logo {
+        font-size: 56px;
+        margin-bottom: 20px;
     }
+        .hero-description {
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 24px; */
+        }
 
 }
