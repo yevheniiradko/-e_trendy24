@@ -7,10 +7,6 @@
     flex-direction: column;
     align-items: center;
 }
-.hero-wrapper {
-    margin-bottom: 20px;
-
-}
 .hero-logo {
     font-family: var(--second-family);
     font-weight: 700;
@@ -18,7 +14,7 @@
     line-height: 1.2;
     letter-spacing: 0.01em;
     color: var(--color-scheme-2-text);
-
+    margin-bottom: 20px;
 }
 .hero-description {
     display: flex;
@@ -103,11 +99,4 @@
         font-size: 56px;
         margin-bottom: 20px;
     }
-        .hero-description {
-            /* display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 24px; */
-        }
-
 }
