@@ -10,7 +10,7 @@
     }
     .container{
       background-color: #EBF8ED ;
-      padding: 64px;
+      padding: 32px 16px;
     }
   .support_1block{
       display: flex;
@@ -159,6 +159,7 @@
        display: flex;
         flex-direction: row;
         gap: 40px;
+        
       }
 
 
