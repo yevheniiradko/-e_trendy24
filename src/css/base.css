@@ -4,10 +4,12 @@
 }
 body {
   font-family: var(--font-family);
+  color: #030a06;
 }
 
 h1,
 h2,
 h3 {
   font-family: var(--second-family);
+  color: #030a06;
 }
