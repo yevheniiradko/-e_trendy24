@@ -1,6 +1,4 @@
-body {
-  font-family: 'Fira Sans', sans-serif;
-  color: #030a06;
-  line-height: 1.6;
-  color: #030a06;
+:root {
+  --font-family: 'Fira Sans', sans-serif;
+  --second-family: 'Comfortaa', sans-serif;
 }
