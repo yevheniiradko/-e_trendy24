@@ -223,6 +223,7 @@ font-size: 14px;
 line-height: 1.6;
 text-align: center;
 color: #030a06;
+
 }
 
 .assortment-chek {
@@ -237,10 +238,14 @@ color: #030a06;
 width: 310px;
 
 }
-.container-mod {
+.container-mod{
     width: 100%;
     
 }
-
+.container-mod-upg {
+     width: 100%;
+     margin-top: 27px;
+margin-bottom: 27px;
+}
 
    } 
