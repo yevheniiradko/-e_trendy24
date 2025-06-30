@@ -61,7 +61,7 @@ padding: 8px 20px;
 width: 288px;
 height: 40px;
 background: #ebf8ed;
-
+cursor: pointer;
 }
 
 .button-chek:hover, .button-chek:focus {
