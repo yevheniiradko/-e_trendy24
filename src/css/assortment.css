@@ -196,12 +196,15 @@ color: #030a06;
 }
 
 .assortment-container {
-
-
+    min-width:1440px;
+    display: flex;
+ flex-direction: row;
+ gap:0 24px;
+ 
 }
 .assortment-pow {
- width: calc((100% - 24px) / 4);
 gap: 16px;
+width: calc((100% - 24px) / 5);
 
 
 }
