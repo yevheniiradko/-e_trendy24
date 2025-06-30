@@ -94,7 +94,7 @@ justify-content: flex-start;
 flex-direction: row;
 gap: 24px;
  width: 100%;
-    max-width: 100%;
+ max-width: 100%;
 }
 .assortment-title {
     width: 704px;
