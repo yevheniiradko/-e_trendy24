@@ -214,11 +214,7 @@ width: calc((100% - 24px) / 5);
 
 }
 .assortment-van {
-    font-weight: 600;
-font-size: 18px;
-line-height: 1.6;
-text-align: center;
-color: #030a06;
+ 
 }
 
 .container-mod-title {
@@ -227,7 +223,6 @@ font-size: 14px;
 line-height: 1.6;
 text-align: center;
 color: #030a06;
-
 }
 
 .assortment-chek {
@@ -242,7 +237,10 @@ color: #030a06;
 width: 310px;
 
 }
-
+.container-mod {
+    width: 100%;
+    
+}
 
 
    } 
