@@ -1,16 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Support</title>
+  <link rel="stylesheet" href="../css/support.css" />
+</head>
+<body>
+
+
 <section class="support" id="support">
     <div class="container">
-        <h2 class="support_title">
-            Залишились питання?<br/>
-            Зв'яжіться з нами!
-        </h2>
         <div class="support_content">
+            
             <div class="support_1block">
+                 <h2 class="support_title">
+                 Залишились питання?<br/>
+                 Зв'яжіться з нами!
+                 </h2>
+        
+            
                 <p class="form_subtitle">Ми тут, щоб допомогти!</p>
-                <input type="text" class="input" name="user-name" pattern="a-zA-Zа-яА-ЯіІїЇєЄґҐ" title="Іван" placeholder="Іван" required>
-                <input type="email" class="input" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="hello@ecotote.com" placeholder="hello@ecotote.com" required >
-                <textarea name="user-comment"  rows="5" class="textarea_comment" placeholder="Введіть своє повідомлення..." required></textarea>
-                <button class="button_send" type="submit">Надіслати</button>
+                <form class="form">
+                    <label for="name"> Імʼя
+                        <input type="text" class="input" name="user-name" pattern="a-zA-Zа-яА-ЯіІїЇєЄґҐ" title="Іван" placeholder="Іван" required> 
+                    </label>
+                    <label for="email">Електронна пошта
+                         <input type="email" class="input" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="hello@ecotote.com" placeholder="hello@ecotote.com" required > 
+                    </label>
+                    <label for="user-comment">Повідомлення
+                          <textarea name="user-comment"  rows="5" class="textarea_comment" placeholder="Введіть своє повідомлення..." required></textarea> 
+                    </label>
+                     <button class="button_send" type="submit">Надіслати</button>
+                </form>
             </div>
             <div class="support_2block">
                 <picture>
@@ -28,3 +49,5 @@
     </div>
     
 </section>
+</body>
+</html>
