@@ -1,172 +1,86 @@
 
-::after,
-::before {
-  box-sizing:border-box;
-}
-:root {
-    --font-family: "Fira Sans", sans-serif;
-    --second-family: "Comfortaa", sans-serif;
-    --color-white: #fff;
-  }
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
 
 
-  body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+
+.about {
+    padding: 64px 0;
+    background-image: image-set(
+      url("../img/about/feature-tel-1x.jpg") 1x,
+      url("../img/about/feature-tel-2x.jpg") 2x
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   
-
-
-  .container {
-    width: 320px;
-    padding: 0 16px;
+  .about_h {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .about_text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  
+  .about_text_2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #fff;
     margin: 0 auto;
+    max-width: 573px;
   }
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-
+  
+  /* Tablet */
+  @media screen and (min-width: 768px) {
     .about {
-        padding: 64px 0;
-        background-image: image-set(
-            url("../img/about/feature-tel-1x.jpg") 1x,
-            url("../img/about/feature-tel-2x.jpg") 2x
-        );
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-      
+      padding: 80px 0;
+      background-image: image-set(
+        url("../img/about/feature-tab-1x.jpg") 1x,
+        url("../img/about/feature-tab-2x.jpg") 2x
+      );
     }
-    .about_h{
-        font-family: var(--second-family);
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 120%;
-        letter-spacing: 0.01em;
-        text-align: center;
-        color: var(--color-white);
-        margin-bottom: 20px;
+  
+    .about_h {
+      font-size: 36px;
+      margin-bottom: 16px;
     }
-
-    .about_text{
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 150%;
-        text-align: center;
-        color: var(--color-white);
-        margin-bottom: 12px;
+  
+    .about_text {
+      margin-bottom: 24px;
     }
-    .about_text_2{
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 160%;
-        text-align: center;
-        color: var(--color-white);
+  
+    .about_text_2 {
+      margin: 0 auto;
     }
-    
-
-    @media screen and (min-width: 768px) {
-        .about {
-          padding: 80px 0;
-          background-image: image-set(
-            url("../img/about/feature-tab-1x.jpg") 1x,
-            url("../img/about/feature-tab-2x.jpg") 2x
-          );
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-        }
-      
-        .about_h {
-          font-family: var(--second-family);
-          font-weight: 700;
-          font-size: 36px;
-          line-height: 120%;
-          letter-spacing: 0.01em;
-          text-align: center;
-          color: var(--color-white);
-          margin: 0 69.5px 16px;
-        }
-      
-        .about_text {
-          font-family: var(--font-family);
-          font-weight: 600;
-          font-size: 16px;
-          line-height: 150%;
-          text-align: center;
-          color: var(--color-white);
-          margin-bottom: 24px;
-        }
-      
-        .about_text_2 {
-          font-family: var(--font-family);
-          font-weight: 400;
-          font-size: 18px;
-          line-height: 160%;
-          text-align: center;
-          color: var(--color-white);
-          width: 573px;
-          margin: 0 97.5px;
-        }
-      }
-      
-
-@media screen and (min-width: 1440px) {
-    .about{
+  }
+  
+  /* Desktop */
+  @media screen and (min-width: 1440px) {
+    .about {
       padding: 112px 0;
       background-image: image-set(
         url("../img/about/feature-pc-1x.jpg") 1x,
         url("../img/about/feature-pc-2.jpg") 2x
       );
     }
-    .about_h{
-        font-family: var(--second-family);
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 120%;
-        letter-spacing: 0.01em;
-        text-align: center;
-        color: var(--color-white);
-      
+  
+    .about_h {
+      font-size: 56px;
     }
-
-    .about_text{
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 150%;
-        text-align: center;
-        color: var(--color-white);
-        margin-bottom: 24px;
-    }
-    .about_text_2{
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 160%;
-        text-align: center;
-        color: var(--color-white);
-    }
-    
   }
+  
