@@ -4,8 +4,10 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+address {
   margin: 0;
+  font-style: normal;
 }
 
 p:last-child {
@@ -31,4 +33,15 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
 }

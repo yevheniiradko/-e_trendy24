@@ -1,6 +1,15 @@
+:root {
+  --font-family: 'Fira Sans', sans-serif;
+  --second-family: 'Comfortaa', sans-serif;
+}
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: var(--font-family);
   color: #030a06;
-  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--second-family);
   color: #030a06;
 }
