@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+  background: #eaf6f2;
+  color: #222;
+}
+
+/* Десктоп 1440px+ (базовые стили) */
+.advantages {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 64px;
+  background: #eaf6f2;
+}
+
+.header {
+  margin-bottom: 60px;
+  text-align: left;
+  max-width: 768px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+  letter-spacing: 0.8px;
+}
+
+.title {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 32px 0;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 249px;
+  object-fit: cover;
+  border-radius: 24px;
+  margin-bottom: 16px;
+}
+
+.card-text {
+  flex: 1;
+}
+
+.card-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.card-desc {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Планшет 768px */
+@media (max-width: 768px) {
+  .advantages {
+    padding: 60px 24px;
+  }
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-desc {
+  margin-top: auto; 
+}
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card img {
+    height: 180px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+
+  .card:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .card:nth-child(3) img {
+    width: 100%;
+    max-width: 704px;
+    height: 416.84px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  .card:nth-child(2) .card-title,
+  .card:nth-child(3) .card-title {
+    white-space: nowrap;
+    font-size: 22px; 
+  }
+
+  .card .card-title br {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .advantages {
+    padding: 40px 16px;
+  }
+
+  .header {
+    margin-bottom: 32px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 24px;
+    white-space: pre-line;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .card {
+    width: 288px;
+    margin: 0 auto;
+  }
+
+  .card img {
+    width: 288px;
+    height: 198px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+
+  .card-desc {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .card img {
+    width: 288px;
+    height: 198px; 
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+  .card:nth-child(3) img {
+    width: 288px;
+    height: 198px; 
+  }
+  @media (max-width: 320px) {
+  .card * {
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 320px) {
+  .card:nth-child(2) .card-title,
+  .card:nth-child(3) .card-title {
+    white-space: normal; 
+    font-size: 22px;
+  }
+
+  .card .card-title br {
+    display: inline;
+  }
+}
+}
+}
