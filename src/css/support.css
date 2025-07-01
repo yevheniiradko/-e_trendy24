@@ -16,7 +16,9 @@
       
   }
     .support_content{
-        
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
     }
     .form_subtitle{
       color: rgba(12, 12, 12, 0.70);
@@ -37,9 +39,9 @@
     .input{
       margin-bottom: 24px;
       padding: 8px 12px;
-      width: 100%;
+      width: 264px;
       height: 42px;
-      background-color: #F3F3F3;
+      background-color: #DFECE1;
       border-radius: 12px;
       border: 1px solid rgba(12, 12, 12, 0.15);
     }
@@ -54,8 +56,8 @@
     }
     .textarea_comment{
       padding: 12px 12px;
-      width: 100%;
-      background-color: #F3F3F3;
+      width: 264px;
+      background-color: #DFECE1;
       border-radius: 12px;
       border: 1px solid rgba(12, 12, 12, 0.15);
       margin-bottom: 28px;
@@ -90,6 +92,9 @@
       font-weight: 500;
       line-height: 1.28;
       padding: 24px 12px;
+      width: 264px;
+      position: relative;
+      text-align: center;
     }
     .button_send:hover,
     .button_send:focus,
@@ -98,7 +103,7 @@
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .contact_us_img{
-      width: 100%;
+      width: 288px;
       object-fit: cover;
       object-position: center;
     }
