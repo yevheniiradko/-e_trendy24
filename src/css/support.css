@@ -9,22 +9,14 @@
         letter-spacing: -0.04em;
     }
     .container{
-      background-color: #EBF8ED ;
       padding: 32px 16px;
     }
   .support_1block{
-      display: flex;
-      flex-direction: column;
+      
+      
   }
     .support_content{
-      display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 80px;
-        min-height: 100vh;
         
-        box-sizing: border-box;
     }
     .form_subtitle{
       color: rgba(12, 12, 12, 0.70);
@@ -156,9 +148,11 @@
     @media screen and (min-width: 1280px) {
       
       .support_content {
-       display: flex;
+        display: flex;
         flex-direction: row;
-        gap: 40px;
+        align-items: stretch;
+        justify-content: space-between;
+        min-height: 100vh;
         
       }
 
