@@ -1,12 +1,14 @@
 .section-title {
+  font-family: Comfortaa;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 48px;
   line-height: 120%;
   letter-spacing: 1%;
   text-align: center;
 }
 
 .section-subtitle {
+  font-family: Fira Sans;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
