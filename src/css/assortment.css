@@ -79,12 +79,10 @@ cursor: pointer;
 
 @media screen and (min-width:768px) {
 .assortment-menu {
-    min-width:768px
+    max-width:768px
 }
 
-.assort-container {
 
-@media screen and (min-width: 768px) {
   
 
 
