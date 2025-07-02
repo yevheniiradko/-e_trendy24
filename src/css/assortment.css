@@ -1,60 +1,62 @@
 .assortment-menu {
-      display: flex;    
+  display: flex;
   margin-left: auto;
-  margin-right: auto;       
-  height: auto; 
-background: #ebf8ed;
-padding: 32px 16px;
-max-width: 320px;
+  margin-right: auto;
+  height: auto;
+  background: #ebf8ed;
+  padding: 32px 16px;
+  max-width: 320px;
 }
 .assortment-title {
-font-weight: 700;
-font-size: 36px; 
-line-height: 1.2;
-letter-spacing: 0.01em;
-text-align: center;
-color: #030a06;
-margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
 }
 .assortment-container {
+
 border-radius: 32px;
  width: 100%;
     max-width: 100%;
 }
 .assortment-pow {
-padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 .container-mod {
-margin-top: 16px;
-margin-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .assortment-van {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.6;
-text-align: center;
-color: #030a06;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
 }
 
 .container-mod-title {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.6;
-text-align: center;
-color: #030a06;
-margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 8px;
 }
 
 .assortment-chek {
-    font-weight: 600;
-font-size: 20px;
-line-height: 1.6;
-text-align: center;
-color: #030a06;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
 }
 
 .button-chek {
+
 border: 1px solid #030a06;
 border-radius: 6px;
 padding: 8px 20px;
@@ -69,6 +71,8 @@ cursor: pointer;
     color: #fff;
 }
 
+/* //// TAB //// */
+
 
                               /* //// TAB //// */
 
@@ -79,85 +83,9 @@ cursor: pointer;
 }
 
 .assort-container {
-   display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-gap: 32px;
-min-width:768px
-}
-.assortment-container {
-   display: flex;
-flex-wrap: wrap;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 24px;
- width: 100%;
- max-width: 100%;
-}
-.assortment-title {
-    width: 704px;
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.2;
-letter-spacing: 0.01em;
-text-align: center;
-color: #030a06;
 
-
-}
-   
-
-.container-mod {
-width: 340px;
-
-
-}
-.button-chek {
-width: 340px;
-}
-.assortment-pow {
-width: 704px;
-width: calc((100% - 24px) / 2);
-    
-}
-.assort-div {
+@media screen and (min-width: 768px) {
   
-}
-.assortment-van {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.6;
-text-align: center;
-color: #030a06;
-}
-.container-mod-title {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.6;
-text-align: center;
-color: #030a06;
-}
-.button-chek {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-gap: 8px;
-border: 1px solid #030a06;
-border-radius: 6px;
-padding: 8px 20px;
-width: 340px;
-height: 40px;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.6;
-color: #030a06;
- max-width: 100%;
-}
-
-}
 
 
 
@@ -184,16 +112,10 @@ padding: 64px;
 min-width:1440px
 
  
-}
+} 
 
-.assortment-title {
-   font-weight: 700;
-font-size: 48px;
-line-height: 1.2;
-letter-spacing: 0.01em;
-text-align: center;
-color: #030a06;
-}
+/* //// Desctop //// */
+
 
 .assortment-container {
   /* min-width:1440px; */
@@ -216,9 +138,11 @@ width: calc((100% - 24px) / 5);
 .assortment-van {
  
 }
+=======
 
-.container-mod-title {
+  .container-mod-title {
     font-weight: 400;
+
 font-size: 14px;
 line-height: 1.6;
 text-align: center;
@@ -249,3 +173,27 @@ margin-bottom: 27px;
 }
 
    } 
+
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #030a06;
+  }
+
+  .assortment-chek {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    color: #030a06;
+  }
+
+  .button-chek {
+    border: 1px solid #030a06;
+    border-radius: 6px;
+    padding: 8px 20px;
+    width: 310px;
+    height: 40px;
+  }
+}
+
