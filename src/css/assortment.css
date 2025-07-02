@@ -23,6 +23,7 @@ border-radius: 32px;
 }
 .assortment-pow {
 padding-bottom: 40px;
+  background-color: transparent;
 }
 .container-mod {
 margin-top: 16px;
@@ -89,8 +90,8 @@ min-width:768px
 .assortment-container {
    display: flex;
 flex-wrap: wrap;
-align-items: flex-start;
-justify-content: flex-start;
+align-items: center;
+justify-content: center;
 flex-direction: row;
 gap: 24px;
  width: 100%;
@@ -200,22 +201,19 @@ color: #030a06;
  gap:0 24px;
  
   display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     /* flex-direction: column; */
     /* gap: 64px; */
     width: 100%;
     max-width: 100%;
 }
 .assortment-pow {
-gap: 16px;
-width: calc((100% - 24px) / 5);
+
+width: calc((100% -72px) / 4);
 
 
-}
-.assortment-van {
- 
-}
+
 
 .container-mod-title {
     font-weight: 400;
