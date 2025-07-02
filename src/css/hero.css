@@ -5,7 +5,7 @@
     --color-scheme-1-text: var(--color-neutral-darkest);
     --color-scheme-3-background: var(--color-white);
     --font-family: "Fira Sans", sans-serif;
-    --second-family: "Comfortaa", sans-serif;    
+    --second-family: "Comfortaa", sans-serif;
 }
 
 .hero {
@@ -76,7 +76,7 @@
         padding-bottom: 64px;
     }
     .hero-container {
-        width: 100%;        
+        width: 100%;
     }
     .hero-wrapper {
         display: flex;
@@ -100,7 +100,7 @@
     }
     .hero-banner {
         width: 100%;
-    } 
+    }
 }
 
 @media only screen and (min-width: 1440px) {
