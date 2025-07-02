@@ -66,6 +66,9 @@
     background: var(--color-white);
     color: var(--color-neutral-darkest);
 }
+.hero-banner {
+    border-radius: 40px;
+}
 
 @media only screen and (min-width: 768px) {
     .hero {
