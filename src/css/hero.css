@@ -1,9 +1,4 @@
 :root {
-    --color-neutral-darkest: #030a06;
-    --color-white: #fff;
-    --color-scheme-2-text: var(--color-neutral-darkest);
-    --color-scheme-1-text: var(--color-neutral-darkest);
-    --color-scheme-3-background: var(--color-white);
     --font-family: "Fira Sans", sans-serif;
     --second-family: "Comfortaa", sans-serif;
 }
@@ -26,7 +21,7 @@
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.01em;
-    color: var(--color-scheme-2-text);
+    color: #030a06;
 }
 .hero-description {
     display: flex;
@@ -40,31 +35,31 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    color: var(--color-scheme-2-text);
+    color: #030a06;
 }
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--color-neutral-darkest);
+    border: 1px solid #030a06;
     border-radius: 6px;
     padding: 12px 24px;
-    background: var(--color-neutral-darkest);
+    background: #030a06;
     min-width: 288px;
     min-height: 50px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    color: var(--color-white);
+    color: #fff;
 }
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-neutral-darkest);
+    background: #fff;
+    color: #030a06;
 }
 .btn:focus {
-    background: var(--color-white);
-    color: var(--color-neutral-darkest);
+    background: #fff;
+    color: #030a06;
 }
 .hero-banner {
     border-radius: 40px;
