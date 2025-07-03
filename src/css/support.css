@@ -1,4 +1,7 @@
-
+.support {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .support_title {
   margin-top: 0;
   padding-bottom: 24px;
@@ -11,9 +14,7 @@
 .support {
   background-color: #ebf8ed;
 }
-.support-container {
-  padding: 32px 16px;
-}
+
 .support_1block {
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 24px;
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -33,7 +34,7 @@
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0.017em;
-  margin: 0px;
+  margin-bottom: 32px;
 }
 .support_place {
   width: 100%;
@@ -44,6 +45,7 @@
   margin-bottom: 20px;
 }
 .input {
+  margin-top: 8px;
   margin-bottom: 24px;
   padding: 8px 12px;
   width: 100%;
@@ -62,6 +64,7 @@ textarea {
   resize: none;
 }
 .textarea_comment {
+  margin-top: 8px;
   padding: 12px 12px;
   width: 100%;
   background-color: #f3f3f3;
@@ -89,16 +92,21 @@ textarea::placeholder {
   font-weight: 400;
   line-height: 1.28;
 }
-.button_send {
-  border-radius: 16px;
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 12px 24px;
   background: #030a06;
-  border: none;
+  min-width: 288px;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
   color: #fff;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.28;
-  padding: 24px 12px;
 }
 .button_send:hover,
 .button_send:focus,
@@ -110,12 +118,21 @@ textarea::placeholder {
   width: 100%;
   object-fit: cover;
   object-position: center;
-}
-
-@media screen and (min-width: 375px) {
+  border-radius: 40px;
 }
 
 @media screen and (min-width: 768px) {
+  .support {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    }
+  .support_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    }
   .support_title {
     margin-bottom: 0px;
     font-size: 48px;
@@ -149,13 +166,17 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .support_content {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-  }
+@media screen and (min-width: 1440px) {
 
+  .support_content {
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  .support_1block {
+    width: 50%;
+  }
   .support_place {
     width: 580px;
     height: 556px;
@@ -170,12 +191,10 @@ textarea::placeholder {
   .form_subtitle {
     margin-bottom: 32px;
   }
-  .contact_us_img {
-    width: 530px;
-    height: 556px;
-    border-radius: 50px;
-  }
   .form {
     gap: 24px;
+  }
+  .support_2block {
+    width: 50%;
   }
 }
