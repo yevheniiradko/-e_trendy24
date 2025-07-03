@@ -177,7 +177,7 @@ body {
   }
 
   .card img {
-    width: 288px;
+    width: 256px;
     height: 198px;
     border-radius: 16px;
     margin-bottom: 16px;
@@ -189,13 +189,13 @@ body {
 }
 @media (max-width: 320px) {
   .card img {
-    width: 288px;
+    width: 256px;
     height: 198px; 
     border-radius: 16px;
     margin-bottom: 16px;
   }
   .card:nth-child(3) img {
-    width: 288px;
+    width: 256px;
     height: 198px; 
   }
   @media (max-width: 320px) {
@@ -213,6 +213,23 @@ body {
   .card .card-title br {
     display: inline;
   }
+  @media (max-width: 320px) {
+  .card {
+    width: 256px;
+    margin: 0 auto;
+  }
+  .card img {
+    width: 256px;
+    height: 198px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+  /* Сдвигаем третью карточку влево на 16px */
+  .card:nth-child(3) {
+    margin-left: -0px;
+    margin-right: auto;
+  }
+}
 }
 }
 }
