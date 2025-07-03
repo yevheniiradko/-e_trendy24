@@ -3,7 +3,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 120%;
-  letter-spacing: 1%;
+  letter-spacing: 0.1em;
   text-align: center;
 }
 
@@ -12,7 +12,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
-  letter-spacing: 0%;
   text-align: center;
   margin-top: 16px;
   margin-bottom: 32px;
