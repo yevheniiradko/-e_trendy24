@@ -1,0 +1,66 @@
+
+<section class="support" id="support">
+      <div class="container support-container">
+        <div class="support_content">
+          <div class="support_1block">
+            <h2 class="support_title">
+              Залишились питання?<br />
+              Зв'яжіться з нами!
+            </h2>
+
+            <h3 class="form_subtitle">Ми тут, щоб допомогти!</h3>
+            <form class="form">
+              <label for="name">
+                Імʼя
+                <input
+                  type="text"
+                  class="input"
+                  name="user-name"
+                  pattern="a-zA-Zа-яА-ЯіІїЇєЄґҐ"
+                  title="Іван"
+                  placeholder="Іван"
+                  required
+                />
+              </label>
+              <label for="email"
+                >Електронна пошта
+                <input
+                  type="email"
+                  class="input"
+                  name="user-email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  title="hello@ecotote.com"
+                  placeholder="hello@ecotote.com"
+                  required
+                />
+              </label>
+              <label for="user-comment"
+                >Повідомлення
+                <textarea
+                  name="user-comment"
+                  rows="5"
+                  class="textarea_comment"
+                  placeholder="Введіть своє повідомлення..."
+                  required
+                ></textarea>
+              </label>
+              <button class="button_send" type="submit">Надіслати</button>
+            </form>
+          </div>
+          <div class="support_2block">
+            <picture>
+              <source media="(min-width: 1440px)" 
+              srcset="/img/support/support-desktop.jpg 1x, /img/support/support-desktop-2x.jpg 2x">
+              <source media="(min-width: 768px)" 
+              srcset="/img/support/support-tabl.jpg 1x, /img/support/support-tabl-2x.jpg 2x">
+              <source media="(max-width: 767px)" 
+              srcset="/img/support/support-mob.jpg 1x, /img/support/support-mob-2x.jpg 2x">
+            
+              <img src="/img/support/support-desktop.jpg" class="contact_us_jpg" alt="Support" width="704"/>
+            </picture>
+
+          </div>
+        </div>
+      </div>
+</section>
+
