@@ -10,7 +10,7 @@ body {
 .advantages {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 64px 0px;
+  padding: 64px 64px;
   background: #eaf6f2;
 }
 
@@ -85,7 +85,7 @@ body {
 /* Планшет 768px */
 @media (max-width: 768px) {
   .advantages {
-/*     padding: 0 px; */
+    padding: 64px 32px;
   }
 
 .card-text {
@@ -148,7 +148,7 @@ body {
 
 @media (max-width: 320px) {
   .advantages {
-    padding: 32px 0;
+    padding: 32px 16px;
   }
 
   .header {
