@@ -13,7 +13,11 @@
     align-items: center;
 }
 .hero-wrapper {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 24px;
 }
 .hero-logo {
     font-family: var(--second-family);
@@ -27,7 +31,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 24px;
     gap: 24px;
 }
 .hero-description-text {
@@ -74,7 +77,9 @@
         width: 100%;
     }
     .hero-wrapper {
-        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        margin-bottom: 20px;
     }
     .hero-logo {
         width: 50%;
@@ -102,6 +107,9 @@
     .hero-container {
         width: 100%;
         max-width: 100%;
+    }
+     .hero-wrapper {
+        gap: 32px;
     }
     .hero-logo {
         font-size: 56px;
