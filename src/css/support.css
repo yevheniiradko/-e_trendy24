@@ -24,7 +24,6 @@
   align-items: flex-start;
   gap: 80px;
   min-height: 100vh;
-
   box-sizing: border-box;
 }
 .form_subtitle {
@@ -106,7 +105,7 @@ textarea::placeholder {
   background: #1f3cd4;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact_us_img {
+.contact_us_jpg {
   width: 100%;
   object-fit: cover;
   object-position: center;
